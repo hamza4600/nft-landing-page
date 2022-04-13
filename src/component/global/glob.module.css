@@ -1,0 +1,11 @@
+/* Blue */
+.Blue{
+    width: 650px;
+    height: 650px;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(80, 34, 188, 0.16) 0%, rgba(80, 34, 188, 0) 100%);
+}
+.Orange{
+    width: 650px;
+    height: 650px;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(188, 80, 34, 0.16) 0%, rgba(188, 80, 34, 0) 100%);
+}

@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from "./nav.module.css"
 
-import "../../fonts/peepo/Peepo.ttf"
+// import "../../fonts/peepo/Peepo.ttf"
 
 function Navbar() {
   return (

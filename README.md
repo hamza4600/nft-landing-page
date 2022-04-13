@@ -1,7 +1,4 @@
- Install alll depediencies needed for the App and then use in
-  npm i axios react-alert react-alert-template-basic
-  npm i react-helmet react-redux redu redux-thunxk redux-devtools-extension overlay-navbar react-router
-
+ 
 npm i react-icons
 
 
@@ -30,3 +27,8 @@ Best way of styling in react js
 css
 module.css
 styles componetes
+
+
+PUSH TO GITHUB
+git add .
+

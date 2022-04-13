@@ -4,5 +4,6 @@
     justify-content: center;
     flex-direction: column;
     background-color: rgb(1, 1, 1);
-    color: white                              ;
+    overflow: hidden;
+    color: white                           ;
 }

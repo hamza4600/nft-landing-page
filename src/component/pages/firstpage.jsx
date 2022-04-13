@@ -2,15 +2,17 @@
 import React from 'react'
 import Navbar from '../nav/navbar'
 import SectionOne from '../secOne'
+import SecTwo from '../secTwo'
 import styles from "./first.module.css"
 
 function First() {
   return (
-    <div> 
+    <div className={styles.Mone}> 
     <Navbar/>
     <div className={styles.Mone}> 
+    
       <SectionOne/>
-      <h1>Node Tree</h1>
+      <SecTwo/>
 
     </div>
     </div>

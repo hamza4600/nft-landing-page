@@ -1,6 +1,4 @@
-.App {
-  text-align: center;
-}
+ 
 
 .App-logo {
   height: 40vmin;
@@ -36,4 +34,3 @@
     transform: rotate(360deg);
   }
 }
-/* for reducx */

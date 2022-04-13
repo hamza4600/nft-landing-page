@@ -1,1 +1,6 @@
 node_modules
+
+git add .
+git commit -m "update "
+git remote add origin "${GIT_REPO}"}" 
+git push origin master /main

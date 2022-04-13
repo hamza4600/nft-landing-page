@@ -11,7 +11,7 @@ import Mintpage from "../Mintpage";
 import First from "./firstpage";
 
 export default function Direction() {
-    return(<div style={{background:"black"}}>
+    return(<div>
             <Router>
       <div>
         <ul>

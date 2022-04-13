@@ -1,7 +1,6 @@
 import React from 'react'
 import Direction from './component/pages/main.js'
  
- 
 
 
 
