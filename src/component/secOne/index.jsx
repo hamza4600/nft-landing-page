@@ -1,5 +1,5 @@
 import React from 'react'
-import { BgBlue, BgOrang } from '../global'
+import { BgBlue, BgOrang, Peppo } from '../global'
 import styles from "./one.module.css"
 
 function SectionOne() {
@@ -11,7 +11,10 @@ function SectionOne() {
         </div>
         
         {/* image of GIFS */}
-        <div className={styles.Left}> left</div>
+        <div className={styles.Left}> 
+        <img src={require("../../photos/NFT.gif")}/>
+
+        </div>
       <BgGradiant/>
     </div>
   )
@@ -23,10 +26,10 @@ export default SectionOne
 // Section Right One
 export function SecRightOne() {
    return(<div className={styles.RightOne}>
-     <span>Welcome!</span>
+     <Peppo text={`Welcome!`}/>
      <h1>node</h1>
      <h3>trees nfts</h3>
-     <p>We're Node Trees a NFT based Defi project. We believe that passive income shouldn't be difficult. It should be as easy as picking fruits from a tree. To learn more about this, check out the details of our tutorial. If you like what you see, consider donating. You can also follow us on Twitter and Facebook. Feel free to send us an email.</p>
+     <Peppo text={`We're Node Trees a NFT based Defi project. We believe that passive income shouldn't be difficult. It should be as easy as picking fruits from a tree. To learn more about this, check out the details of our tutorial. If you like what you see, consider donating. You can also follow us on Twitter and Facebook. Feel free to send us an email`}/>
     <li>Components from mint tree</li>
    </div>)
 }

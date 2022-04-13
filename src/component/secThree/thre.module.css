@@ -1,0 +1,13 @@
+.Tone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* height: 200vh; */
+    width: 100vw;
+    background-color: rgb(60, 60, 60);
+}
+.Vector{
+    object-fit: contain;
+    width: 40%;
+}

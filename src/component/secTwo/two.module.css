@@ -5,31 +5,63 @@
     flex-direction: column;
     /* height: 100vh; */
     width: 100vw;
-    background-color: rgb(43, 65, 227);
+    position: relative;
+    /* background-color: rgb(43, 65, 227); */
 }
 .Scroll{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    background-color: aqua;
         width: 100vw;
         height: 320px;
-    align-items: flex-start;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-items: center;
+        justify-content: space-between;
     }
 .Sthree{
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
     width: 100vw;
     height: 100vh;
     display: flex;
     flex-direction: row;
 }    
 .Extwo{
-    background-color: aquamarine;
     width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.Extwo div{
+    max-width: 80%;
 }
 .ExIma{
     width: 40%;
-
-    background-color: darkblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     float: left;
+}
+.ExIma img{
+    object-fit: contain;
+    width: 80%;
+    border-radius: 50%;
+}
+
+
+.Buttn{
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px 50px;
+    margin: 100px 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.BgC{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: row;
+    position: absolute;
+    width: 100%;
 }

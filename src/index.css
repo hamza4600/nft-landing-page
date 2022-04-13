@@ -10,12 +10,7 @@ body {
      url("./fonts/upheaval/upheavtt.ttf") format("TrueType");
     font-weight: bold;
 }
-@font-face {
-  font-family: "peepo";
-  src: local("peepo"),
-    url("./fonts/pepoo/Peepo.ttf") format("TrueType");
-  font-weight: bold;
-}
+ 
 
 
  

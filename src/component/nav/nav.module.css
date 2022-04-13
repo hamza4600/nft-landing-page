@@ -1,12 +1,11 @@
 /* import font localy  */
 
-@font-face {
+ @font-face {
     font-family: "upheavtt";
     src: local("upheavtt"),
     url("../../fonts/upheaval/upheavtt.ttf") format("truetype");
     font-weight: lighter;
-
-}
+} 
 
 .None{
     display: flex;

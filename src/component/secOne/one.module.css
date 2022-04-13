@@ -19,6 +19,13 @@
     float: left;
     width: 40%;
     height: 100%;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Left img{
+    width: 80%;
+    border-radius: 50%;
 }
 
 /* SecRigth One */
@@ -27,7 +34,7 @@
     align-items: flex-start;
     justify-content: center;
     flex-direction: column;
-    width: 100%;
+    width: 80%;
     height: 100%;
     padding: 10px 80px;
 }
@@ -40,7 +47,7 @@
     font-family: "upheavtt";
     background: linear-gradient(180deg, #22BC50 0%, rgba(0, 201, 60, 0.3) 100%);
     position: relative;
-    box-shadow: 0px -2px 4px 0px #5FC17C29;
+    text-shadow: 0px -2px 4px 0px #5FC17C29;
     font-size: 130px;
     margin: 0 ;
     background-clip: text;
@@ -52,33 +59,25 @@
     position: relative;
     font-size: 55px;
     background: linear-gradient(180deg, #22BC50 0%, rgba(0, 201, 60, 0.3) 100%);
-    box-shadow: 0px -2px 4px rgba(95, 193, 124, 0.16);
+    text-shadow: 0px -2px 4px rgba(95, 193, 124, 0.16);
     background-clip: text;
     color: transparent;
 }
-    .RightOne p{
-     font-weight: normal;
-    font-family: "Peepo";
-    margin: 0 ;
-    line-height: 28px;
-    font-size: 24px;
-    max-width: 80%;
-}
- 
 
 /* Bg gradients */
 .BgGradiant{
     position: absolute;
-    width: 100%;
+    width: 80%;
+    bottom: 8px;
     z-index: 1;
 }
 .BgBluex{
     position: absolute;
     right: 70%;
-    bottom: 10%;
+    bottom: 1%;
 }
 .BgOrangx{
     bottom: -50px;
-    left: 70%;
+    left: 80%;
     position: absolute;
 }
