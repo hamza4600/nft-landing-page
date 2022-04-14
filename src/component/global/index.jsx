@@ -31,3 +31,9 @@ export function HeaderSe({text}) {
 export function Peppo({text}) {
     return(<p className={styles.Peep}>{text}</p>)
 }
+
+// For Faq
+export function FaqQuesx({text}) {
+    return(<div className={styles.Ques}>{text}</div>)
+}
+    

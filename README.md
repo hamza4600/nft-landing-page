@@ -29,9 +29,10 @@ module.css
 styles componetes
 
 Add image on readme 
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+![alt text](https://github.com/BlocTAK-Software-Solutions/nodetree/tree/master/src/photos/NFT.gif?raw=true)
 
 
 PUSH TO GITHUB
 git add .
-
+git commit -m "commit"
+git push origin  master

@@ -54,7 +54,7 @@ export function ExtTwoLeft() {
 // gradients
 export function Bgclor() {
     return(<div className={styles.BgC}>
-        <BgOrang/>  
-        <BgBlue/>
-    </div>)
+        <div className={styles.GRight}><BgOrang/></div>  
+        <div className={styles.GLeft}><BgBlue/></div>
+</div>)
 }

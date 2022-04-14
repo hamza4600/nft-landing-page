@@ -1,6 +1,7 @@
 // first page\
 import React from 'react'
 import Navbar from '../nav/navbar'
+import SecFour from '../secFour'
 import SectionOne from '../secOne'
 import SecThree from '../secThree'
 import SecTwo from '../secTwo'
@@ -15,6 +16,7 @@ function First() {
       <SectionOne/>
       <SecTwo/>
       <SecThree/>
+      <SecFour/>
 
     </div>
     </div>

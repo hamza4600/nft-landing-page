@@ -5,6 +5,8 @@
     flex-direction: column;
     /* height: 200vh; */
     width: 100vw;
+    overflow: hidden;
+
     background-color: rgb(60, 60, 60);
 }
 .Vector{

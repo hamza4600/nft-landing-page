@@ -32,3 +32,10 @@
     margin: 0;  
     line-height: 30px;
 }
+.Ques{
+    font-family: "upheavtt";
+    font-size: 23px;
+    text-align: left;
+    max-width: 80%;
+    line-height: 22px;
+}
