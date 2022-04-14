@@ -12,7 +12,8 @@ function SectionOne() {
         
         {/* image of GIFS */}
         <div className={styles.Left}> 
-        <img src={require("../../photos/NFT.gif")}/>
+        <img className={styles.Lim} src={require("../../photos/NFT.gif")}/>
+        <img className={styles.Lci} src={require("../../photos/Circle.png")}/>
 
         </div>
       <BgGradiant/>

@@ -10,6 +10,7 @@
     background-color: rgb(60, 60, 60);
 }
 .Vector{
+    border: 1px solid white;
     object-fit: contain;
     width: 40%;
 }

@@ -11,7 +11,6 @@
 .SmF{
     display: flex;
     flex-direction: column;
-    /* background-color: aqua; */
     width: 100vw;
     height: 250px;
     align-items: center;
@@ -45,34 +44,42 @@
     width: 100vw;
     height: 100vh;
     flex-direction: row;
+    align-items: center;
 }
 /* Rigth fa */
 .FaLeft{
-    /* background-color: cornflowerblue; */
     width: 55%;
+    margin-left: 30px;
 }
 .FaRight{
     display: flex;
     align-items: center;
     justify-content: center;
     width: 45%;    
+    position: relative;
 }
-.FaRight img{
+.FaRimg{
     border-radius: 50%;
-    width: 90%;
+    width: 80%;
+}
+.Circ{
+    position: absolute;
+    width: 82%;
 }
 
 /* Left question */
 .FaqQ{
 
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-evenly;
     flex-direction: column;
-    padding: 6px;
+    padding: 5px;
+    margin-top: 10px;
 }
 
 .FTwo{
+    z-index: 2;
     display: flex;
     flex-direction: row;
     padding: 10px;
@@ -80,17 +87,33 @@
     width: 70%;
     justify-content: space-between;
     align-items: center;
+    cursor: pointer;
+    border-bottom: 2px solid #424242;
 }
 .FTwo img {
     cursor: pointer;
 }
 /* adding before to p in FaqQ */
+.FaqQ p{
+    max-width: 70%;
+}
 .FaqQ p::after{
     content: "";
     display: block;
     position: relative;
-    width: 550px;
+    width: 510px;
     border-bottom: 2px solid #424242;
+}
+.FaqA{
+    padding: 8px;
+    display: block;
+    transition: all 0.5s ease;
+}
+.FaqA2{
+    transition: all 0.5s ease;
+
+    padding: 8px;
+    display: none;
 }
 
 .BGH{

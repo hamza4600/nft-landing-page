@@ -13,9 +13,9 @@
     float: right;
     width: 60%;
     height: 100%;
-    /* background-color: cornflowerblue; */
 }
 .Left{
+    position: relative;
     float: left;
     width: 40%;
     height: 100%;    
@@ -23,8 +23,13 @@
     align-items: center;
     justify-content: center;
 }
-.Left img{
+.Lim{
     width: 80%;
+    border-radius: 50%;
+}
+.Lci{
+    position: absolute;
+    width: 82%;
     border-radius: 50%;
 }
 

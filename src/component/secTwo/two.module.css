@@ -40,10 +40,14 @@
     justify-content: center;
     float: left;
 }
-.ExIma img{
+.Exnf{
     object-fit: contain;
     width: 80%;
     border-radius: 50%;
+}
+.Exci{
+    position: absolute;
+    width: 32.88%;
 }
 
 

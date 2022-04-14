@@ -47,7 +47,8 @@ export function ExtTwo() {
 // extion two Left side
 export function ExtTwoLeft() {
     return(<div className={styles.ExIma}>
-        <img src={require("../../photos/NFT.gif")}/>
+        <img className={styles.Exnf} src={require("../../photos/NFT.gif")}/>
+        <img className={styles.Exci} src={require("../../photos/Circle.png")}/>
     </div>)
 }
 

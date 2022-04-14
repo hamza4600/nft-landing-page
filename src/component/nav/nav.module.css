@@ -25,7 +25,11 @@
     align-items: baseline;
 }
 .Ntem{
+    cursor: pointer;
     font-size: 20px;
+}
+.Ntem:hover{
+    color: #22BC50;
 }
     
 .Icon img{
