@@ -11,7 +11,7 @@ function First() {
   return (
     <div className={styles.Mone}> 
     <Navbar/>
-    <div className={styles.Mone}> 
+    <div> 
     
       <SectionOne/>
       <SecTwo/>

@@ -4,8 +4,8 @@ body {
   font-family: "peepo";
   overflow-x: hidden;
   height: max-content;
-  background-color: black;
   /* overflow: hidden; */
+  background-color: black;
 }
 
 @font-face {
