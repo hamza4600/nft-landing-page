@@ -1,5 +1,6 @@
 // first page\
 import React from 'react'
+import MintFooter from '../footer'
 import Navbar from '../nav/navbar'
 import SecFour from '../secFour'
 import SectionOne from '../secOne'
@@ -11,14 +12,12 @@ function First() {
   return (
     <div className={styles.Mone}> 
     <Navbar/>
-    <div> 
-    
+
       <SectionOne/>
       <SecTwo/>
       <SecThree/>
       <SecFour/>
-
-    </div>
+      <MintFooter/>
     </div>
   )
 }

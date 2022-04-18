@@ -38,4 +38,73 @@
     text-align: left;
     max-width: 80%;
     line-height: 22px;
+    margin-bottom: 5px;
+}
+
+.GreenBtn{
+    box-shadow: 0px -2px 4px rgba(95, 193, 124,0.7);
+    background: linear-gradient(180deg, #22BC50 0%, rgba(0, 201, 60, 0.3) 100%);
+    clip-path: polygon(0% 15%, 6% 15%, 6% 0, 94% 1%, 94% 13%, 100% 15%, 100% 85%, 94% 84%, 94% 100%, 5% 100%, 6% 85%, 0% 85%);
+    font-family: 'peepo';
+    font-weight: 400;
+    font-size: 16px;
+    padding: 15px 30px;
+    cursor: pointer;
+    margin:10px;
+    display:flex;
+    justify-content: center;
+    line-height: 23px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    width: max-content;
+
+    
+}
+.BlackBtn{
+    height: 45px;
+    width: 150px;
+    background-color: white;
+    margin:10px;
+    font-family: 'peepo';
+    font-weight: 400;
+    font-size: 16px;
+    cursor: pointer;
+    /* padding: 20px; */
+    line-height: 23px;
+    clip-path: polygon(0% 15%, 6% 15%, 6% 0, 94% 1%, 94% 13%, 100% 15%, 100% 85%, 94% 84%, 94% 100%, 5% 100%, 6% 85%, 0% 85%);
+    color: white;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.BlackBtn:hover{
+    background-color: #22BC50;
+    color: white;
+}
+.BlackBtn::before {
+        content: "Watch Tutorials";
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        flex-direction: row;
+        height: 41px;
+        width: 98%;
+        right: 1.99px;
+        background-color: black;
+        clip-path: polygon(0% 15%, 6% 15%, 6% 0, 94% 1%, 94% 13%, 100% 15%, 100% 85%, 94% 84%, 94% 100%, 5% 100%, 6% 85%, 0% 85%);
+    }
+
+@media only screen and (max-width: 600px) {
+    .Peep{
+        font-size: 15px;
+        line-height: 26px;
+    }
+    .Htex{
+        font-size: 24px;
+    }
+    .Ques{
+        font-size: 18px;
+    }
 }

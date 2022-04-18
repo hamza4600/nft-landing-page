@@ -27,7 +27,8 @@ export default SecFour
 export function SmFaq() {
     return(<div className={styles.SmF}>
         <HeaderSe text={`Payout Schedule`}/>
-        <button>View PDF</button>
+        {/* Pdf button */}
+        <GreenPdf text={`View PDF`}/>
 
 {/* Bg colors */}
         <div className={styles.SmallBG}>
@@ -97,5 +98,13 @@ export function BgLast() {
     return(<div className={styles.BGH}>
         <div className={styles.Leed}><BgOrang/></div>
         <div className={styles.Rii}><BgBlue/></div>   
+    </div>)
+}
+
+// PDF ButtOn
+export function GreenPdf({text}) {
+    return(<div className={styles.GreenPdf}>
+        <img src={require("../../photos/pdf.png")} alt=""/>
+        <p>{text}</p>
     </div>)
 }

@@ -15,6 +15,7 @@
     font-family: "upheavtt";
     font-weight: 200;
     font-size: 35px;
+    position: relative;
 }
 .Ntwo{
     display: flex;
@@ -23,6 +24,7 @@
     width: 95%;
     margin: auto;   
     align-items: baseline;
+    position: relative;
 }
 .Ntem{
     cursor: pointer;
@@ -35,4 +37,84 @@
 .Icon img{
     position: relative;
     object-fit: contain;
+}
+.Mobi{
+    display: none;
+}
+.Cloo{
+    display: none;
+}
+.Nclo{
+    justify-content: space-evenly;
+    flex-direction: row;
+    width: 95%;
+    margin: auto;   
+    align-items: baseline;
+    position: relative;
+    display: flex;
+}
+@media only screen and (max-width: 600px) {
+ 
+    .Mobi{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        align-items: center;
+        justify-content: space-around;
+        padding: 8px 20px;    
+        position: relative;
+        left: 50px;
+        height: 20px;
+    }   
+ 
+    .Nclo{
+        transition: all 0.5s ease;
+        z-index: 1;
+        flex-direction: column;
+        width: 450px;
+        height: 500px;
+        position: absolute;
+        transition: all 0.5s;
+        top: -500px;
+        border-radius: 20px;
+        background: #010803;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .Ntwo{
+        transition: all 0.5s ease;
+        background: #010803;
+        z-index: 1;
+        flex-direction: column;
+        width: 450px;
+        height: 500px;
+        position: absolute;
+        transition: all 0.5s;
+        top: -10px;
+        border-radius: 20px;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .Ntem   {
+        display: flex;
+        justify-content: center;
+        border-bottom: 1px solid #FFFFFF;
+        width: 420px;
+    }
+    .Ntem p{
+        position: relative;
+        top: -10px;
+    }
+    .Cloo{
+        display: block;
+        position: relative;
+        left: 25%;
+
+    }
+
+ 
+     
+    .Maii{
+        display: none;
+    }
 }

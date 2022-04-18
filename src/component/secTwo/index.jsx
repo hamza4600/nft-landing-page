@@ -1,14 +1,12 @@
 import React from 'react'
-import { BgBlue, BgOrang, HeaderSe, Peppo } from '../global'
+import { BgBlue, BgOrang, GreenBtn, HeaderSe, Peppo } from '../global'
 import styles from "./two.module.css"
 
 function SecTwo() {
   return (
     <div className={styles.Stwo}>
         {/* Scroll */}
-        {/* <div className={styles.Scroll}> */}
             <Scrolindi/>
-        {/* </div> */}
         {/* Bottom */}
         <div className={styles.Sthree}>
             {/* left */}
@@ -39,7 +37,7 @@ export function ExtTwo() {
         <Peppo text={`
             We are building a defi project utilizing validator nodes on multiple chains. We plan on creating Validator nodes on chains with a yield of 15% or more. Some examples of Nodes with 15% yields are PanCakeSwap, Osmosis, and ChainX. We want to have our owners input as well. Once a month we will have a vote on what validators to keep and which ones we want to drop/add.`}/>
         </div>
-        <button className={styles.Buttn}><Peppo text={`Get This`}/></button>
+        <div className={styles.Butn}><GreenBtn text={`Email Us Now`}/></div>
 
     </div>)
 }

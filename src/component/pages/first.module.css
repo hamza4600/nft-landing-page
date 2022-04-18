@@ -4,6 +4,19 @@
     justify-content: center;
     flex-direction: column;
     background-color: rgb(1, 1, 1);
-    overflow: hidden;
     color: white                           ;
+}
+/* for small device */
+@media only screen and (max-width: 600px) {
+    .Mone{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: max-content;
+        width: 100vw;
+        overflow-x: hidden;
+        margin-bottom: 50px;
+    }
+
 }

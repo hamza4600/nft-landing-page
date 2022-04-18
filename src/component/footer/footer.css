@@ -1,0 +1,61 @@
+.icons-container-firstText{
+    font-family: 'Peepo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: start;
+}
+.icons-container{
+    display: flex;
+    justify-content:space-between;
+    margin-top:20px;
+    padding: 1px 50px;
+    width: 90%;
+    margin: auto;
+}
+ 
+
+
+
+.iconsContainer{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+.iconsContainerText{
+    font-family: 'Peepo';
+    font-weight: 400;
+    margin-right: 10px;
+    font-style: normal;
+    line-height: 23px;
+    font-size: 16px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.iconsBox{
+    border: 1px solid #FFFFFF;
+    border-radius:50px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+}
+.twitter-icon{
+    margin-right: 4px;
+}
+@media only screen and (max-width: 600px) {
+.icons-container{
+    position: relative;
+    width: 100%;
+    bottom: 150px;
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    right: 42px;
+}
+.icons-container-firstText{
+    font-size: 16px;
+}
+}

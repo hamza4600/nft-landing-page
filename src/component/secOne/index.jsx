@@ -1,5 +1,6 @@
 import React from 'react'
-import { BgBlue, BgOrang, Peppo } from '../global'
+import { Icons } from '../footer'
+import { BgBlue, BgOrang, BlackBtn, GreenBtn, Peppo } from '../global'
 import styles from "./one.module.css"
 
 function SectionOne() {
@@ -11,7 +12,7 @@ function SectionOne() {
         </div>
         
         {/* image of GIFS */}
-        <div className={styles.Left}> 
+        <div className={styles. Left}> 
         <img className={styles.Lim} src={require("../../photos/NFT.gif")}/>
         <img className={styles.Lci} src={require("../../photos/Circle.png")}/>
 
@@ -31,7 +32,8 @@ export function SecRightOne() {
      <h1>node</h1>
      <h3>trees nfts</h3>
      <Peppo text={`We're Node Trees a NFT based Defi project. We believe that passive income shouldn't be difficult. It should be as easy as picking fruits from a tree. To learn more about this, check out the details of our tutorial. If you like what you see, consider donating. You can also follow us on Twitter and Facebook. Feel free to send us an email`}/>
-    <li>Components from mint tree</li>
+    {/*  */}
+    <Commen/>
    </div>)
 }
 // Section Right Two
@@ -50,4 +52,11 @@ export function BgGradiant(){
   )
 }
 
-// Seprate compon
+// Common Components
+export function Commen() {
+  return(<div className={styles.Common}>
+   <div className={styles.TwoButon}><GreenBtn text={`Learn More`}/>
+    <BlackBtn text={`Donate`}/></div>
+    <Icons/>
+  </div>)
+}

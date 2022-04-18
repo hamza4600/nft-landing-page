@@ -11,10 +11,10 @@ import Mintpage from "../Mintpage";
 import First from "./firstpage";
 
 export default function Direction() {
-    return(<div>
+    return(<div >
             <Router>
       <div>
-        <ul>
+        <ul style={{display:"none"}}>
            
           <li>
             <Link to="/mintpage">Mintpage</Link>

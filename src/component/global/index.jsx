@@ -37,3 +37,15 @@ export function FaqQuesx({text}) {
     return(<div className={styles.Ques}>{text}</div>)
 }
     
+// green Button
+export function GreenBtn({text}) {
+    return(
+        <button className={styles.GreenBtn}>{text}</button>
+    )
+}
+// Black Button
+export function BlackBtn({text}) {
+    return(
+        <button className={styles.BlackBtn}>{text}</button>
+    )
+}

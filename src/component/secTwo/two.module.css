@@ -51,13 +51,14 @@
 }
 
 
-.Buttn{
-    background-color: green;
-    color: white;
-    border: none;
-    padding: 10px 50px;
-    margin: 100px 10px;
-    border-bottom-left-radius: 10px;
+.Butn{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 32%;
+    width: fit-content    ;
+    margin-top: 30px;
 }
 
 .BgC{
@@ -76,4 +77,37 @@
     position: relative;
     left: 200px;
     top: 280px;
+}
+
+/* for mobile  */
+@media only screen and (max-width: 600px) {
+    .Scroll img{
+        display: none;
+    }
+    .Scroll{
+        height: 10%;
+        margin-top: 50px;
+    }
+    .Sthree{
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+    }
+    .Extwo{
+        text-align: center;
+        width: 100%;
+        height: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .Butn{
+        right: 2%;
+    }
+    .ExIma{
+        display: none;
+    }
+    .BgC{
+        display: none;
+    }
 }
