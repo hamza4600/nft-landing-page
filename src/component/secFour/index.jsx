@@ -25,7 +25,7 @@ export default SecFour
 
 // SmFaq
 export function SmFaq() {
-    return(<div className={styles.SmF}>
+    return(<div id='four' className={styles.SmF}>
         <HeaderSe text={`Payout Schedule`}/>
         {/* Pdf button */}
         <GreenPdf text={`View PDF`}/>
@@ -40,7 +40,7 @@ export function SmFaq() {
 
 // Right
 export function BigfaRight() {
-    return(<div className={styles.FaRight}>
+    return(<div id='five' className={styles.FaRight}>
         <img className={styles.FaRimg} src={require("../../photos/NFT.gif")} alt=""/>
         <img className={styles.Circ} src={require("../../photos/Circle.png")} alt=""/>
     </div>)

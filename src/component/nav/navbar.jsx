@@ -1,22 +1,23 @@
 import React from 'react'
 import styles from "./nav.module.css"
+import { HiOutlineX } from "react-icons/hi";
 
-// import "../../fonts/peepo/Peepo.ttf"
-import { FiXCircle } from "react-icons/fi";
-
+import { Link, animateScroll as scroll } from "react-scroll";
 
 function Navbar() {
   const [open , setOpen] = React.useState(false)
+  const handleClick = () => {
+    setOpen(!open)
+  }
   return (
-    // onClick={Open}  className={styles.Nthree} style={{top: open ? "0px" : "-503px"}}
     <div className={styles.None}>
-      <div className={open ? styles.Ntwo : styles.Nclo } onClick={()=>setOpen(!open)}>
-        <div className={styles.Cloo}> <FiXCircle/></div>
-        <div><Navitem miss={`Mission Statement`}/></div>
-        <div> <Navitem miss={`Road Map`}/></div>
+      <div className={open ? styles.Ntwo : styles.Nclo } onClick={handleClick} >
+        <div className={styles.Cloo}> <HiOutlineX/></div>
+        <div><Navitem miss={`Mission Statement`} place={`two`} click={handleClick}/></div>
+        <div> <Navitem miss={`Road Map`} place={`three`} click={handleClick}/></div>
         <div className={styles.Maii}><NavIcons/></div>
-        <div><Navitem miss={`Payout Schedule`}/></div>
-        <div><Navitem miss={`FAQs`}/></div>
+        <div><Navitem miss={`Payout Schedule`} place={`four`} click={handleClick}/></div>
+        <div><Navitem miss={`FAQs`} place={`four`} click={handleClick}/></div>
         {/* </div> */}
       </div>
       {/* for mobile` */}
@@ -24,7 +25,7 @@ function Navbar() {
       <div className={styles.Mobi} >
         <img src={require("../../photos/tre.png")}/>
         <div onClick={()=>setOpen(!open)}> 
-        { open ? <FiXCircle/> :
+        { open ? <HiOutlineX/> :
         <img src={require("../../photos/Menu.png")}/>
         }</div>
 
@@ -36,9 +37,14 @@ function Navbar() {
 export default Navbar
 
 // navItems
-export function Navitem({miss}){
+export function Navitem({miss,place,click}){
   return(<div className={styles.Ntem}>
-    <p>{miss}</p>
+    <Link to={place}
+        spy={true}
+        smooth={true}
+        offset={-70}
+        duration={500}>
+          <p onClick={click}>{miss}</p></Link>
   </div>)
 }
 

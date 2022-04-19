@@ -8,7 +8,7 @@ import ScrolLe from '../global/scroll'
 function SecThree() {
      
   return (
-    <div className={styles.Tone}>
+    <div id='three' className={styles.Tone}>
         <HeaderSe text="Road Map"/>
          <div className={styles.Tonesvg}><VectorTree /></div> 
       {/* five section of text */}

@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: 200vh;
+    height: auto;
     width: 100vw;
     overflow: hidden;
     overflow-x: hidden;
@@ -13,9 +13,10 @@
     display: flex;
     flex-direction: column;
     width: 100vw;
-    height: 250px;
+    height: 350px;
     align-items: center;
-    justify-content: space-between
+    /* justify-content: space-between; */
+    margin-bottom: 50px;
 }
 .SmallBG{
     position: absolute;
@@ -160,18 +161,18 @@
 }   
 
 /* for mobile */
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 500px) , (max-device-width: 1024px) {
     .Fone{
         justify-content: flex-start;
         flex-direction: column;
         height: auto;
-        position: relative;
-        
+        position: relative;        
     }
     .SmF{
-        display: none;
+        height: auto;
     }
     .BGH{
+        display: none;
         overflow: hidden;
     }
     .SmallBG{
@@ -183,7 +184,7 @@
     .FaLeft{
         width: 100%;
         margin-left: 0px;
-        margin-bottom: 200px;
+        margin-bottom: 20px;
 
     }
     .FTwo{

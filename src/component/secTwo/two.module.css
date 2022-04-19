@@ -9,7 +9,7 @@
 }
 .Scroll{
         width: 100vw;
-        height: 320px;
+        height: 350px;
         display: flex;
         align-items: center;
         flex-direction: column;
@@ -17,9 +17,7 @@
         justify-content: space-between;
     }
 .Sthree{
-    /* background-color: blueviolet; */
     width: 100vw;
-    height: 100vh;
     display: flex;
     flex-direction: row;
 }    
@@ -80,7 +78,7 @@
 }
 
 /* for mobile  */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) , (max-device-width: 1024px) {
     .Scroll img{
         display: none;
     }

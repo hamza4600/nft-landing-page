@@ -2,7 +2,7 @@ import React from 'react'
 
 function VectorTree({style,color,border}) {
   return (
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 133.64 372.23" fill="#191A1C"  stroke='#5FC17C' strokeWidth="0.0599px"   opacity={"0.59"}   > 
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 133.64 372.23" fill="#191A1C"  stroke='#5FC17C' strokeWidth="0.0599px"      > 
 
 
             <title>3Tree</title>

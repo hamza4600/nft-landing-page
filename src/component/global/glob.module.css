@@ -11,7 +11,7 @@
 
 .Blue{
     width: 750px;
-    height: 750px;
+    height: 100%;
     background: radial-gradient(50% 50% at 50% 50%, rgba(80, 34, 188, 0.16) 0%, rgba(80, 34, 188, 0) 100%);
 }
 .Orange{

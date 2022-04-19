@@ -6,6 +6,9 @@ body {
   height: max-content;
   /* overflow: hidden; */
   background-color: black;
+  /* smooth  scroll*/
+
+  scroll-behavior: smooth;
 }
 
 @font-face {

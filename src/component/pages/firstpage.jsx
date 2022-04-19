@@ -10,7 +10,7 @@ import styles from "./first.module.css"
 
 function First() {
   return (
-    <div className={styles.Mone}> 
+    <div> 
     <Navbar/>
 
       <SectionOne/>

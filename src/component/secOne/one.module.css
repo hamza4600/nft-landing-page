@@ -7,6 +7,7 @@
     height: 100vh;
     position: relative;
     overflow: hidden;
+    /* background-image: "../../photos/Grains.png"; */
 }
 
 .Right{
@@ -43,7 +44,8 @@
     height: 100%;
     padding: 10px 80px;
 }
-.RightOne span{
+.RightOne span
+{  
     font-size: 20px;
     font-weight: lighter;
     font-family: "peepo";
@@ -53,20 +55,22 @@
     background: linear-gradient(180deg, #22BC50 0%, rgba(0, 201, 60, 0.3) 100%);
     position: relative;
     text-shadow: 0px -2px 4px 0px #5FC17C29;
-    font-size: 130px;
-    margin: 0 ;
+    font-size: 8em;
+    margin: 0;
     background-clip: text;
     color: transparent;
+    /* background-color: aqua; */
 }
 .RightOne h3{
     font-family: "upheavtt";
-    margin: 0 ;
+    margin: 0;
     position: relative;
-    font-size: 55px;
+    font-size: 3.4em;
     background: linear-gradient(180deg, #22BC50 0%, rgba(0, 201, 60, 0.3) 100%);
     text-shadow: 0px -2px 4px rgba(95, 193, 124, 0.16);
     background-clip: text;
     color: transparent;
+    top: -15px;
 }
 
 /* Bg gradients */
@@ -101,12 +105,59 @@
     align-items: center;
     justify-content: space-evenly;
 }
+
+/* Yoyo */
+.Paki{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    bottom: -0.5px;
+}
+ 
+.Yoyo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 30px;
+    right: 10px;
+}
+.Rou{
+    border-radius: 50%;
+    width:89%;
+}
+.Rout{
+    width: 90%;
+    position: absolute;
+}
+.yoya{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Roua{
+    border-radius: 50%;
+    position: relative;
+    width:78%;
+}
+.Routa{
+    right: 20px;
+    width: 40%;
+    right:10% ;
+    position: absolute;
+    top: -5px;
+}
+
 /* for Mobile */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px)   , (max-device-width: 1024px)  {
     .SeOne{
         margin-top: 20px;
         height: max-content;
         flex-direction: column-reverse;
+    }
+    .Paki{
+        display: none;
     }
     .TwoButon{
         padding: 10px;

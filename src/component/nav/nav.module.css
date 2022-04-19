@@ -8,6 +8,7 @@
 } 
 
 .None{
+    margin-top: 10px;
     display: flex;
     align-items: center;
     flex-direction: row;
@@ -30,9 +31,7 @@
     cursor: pointer;
     font-size: 20px;
 }
-.Ntem:hover{
-    color: #22BC50;
-}
+
     
 .Icon img{
     position: relative;
@@ -53,7 +52,16 @@
     position: relative;
     display: flex;
 }
-@media only screen and (max-width: 600px) {
+.Ntem a{
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s;
+}
+.Ntem a:hover{
+    color: #22BC50;
+
+}
+@media only screen and (max-width: 600px)  {
  
     .Mobi{
         display: flex;
@@ -72,14 +80,14 @@
         z-index: 1;
         flex-direction: column;
         width: 450px;
-        height: 500px;
+        height: 450px;
         position: absolute;
         transition: all 0.5s;
         top: -500px;
-        border-radius: 20px;
         background: #010803;
         align-items: center;
         justify-content: space-evenly;
+        width: 100%;
     }
     .Ntwo{
         transition: all 0.5s ease;
@@ -87,32 +95,42 @@
         z-index: 1;
         flex-direction: column;
         width: 450px;
-        height: 500px;
+        height: 450px;
         position: absolute;
         transition: all 0.5s;
         top: -10px;
-        border-radius: 20px;
+        display: flex;
         align-items: center;
-        justify-content: space-evenly;
+        width: 100%;
     }
-    .Ntem   {
+     
+    .Ntem{
+
         display: flex;
         justify-content: center;
+        align-items: center;
+            width: 100%;
+        }
+        
+    .Ntem::after{
+        content: "";
+        width: 390px;
+        position: absolute;
         border-bottom: 1px solid #FFFFFF;
-        width: 420px;
+        margin-top: 18%;
     }
     .Ntem p{
         position: relative;
         top: -10px;
+        /* right: 5%; */
+        /* margin-right: 70px; */
     }
     .Cloo{
         display: block;
         position: relative;
-        left: 25%;
-
     }
 
- 
+     
      
     .Maii{
         display: none;
