@@ -7,7 +7,7 @@
     width: 100vw;
     overflow: hidden;
     overflow-x: hidden;
-
+    margin-top: 100px;
 }
 .SmF{
     display: flex;
@@ -15,7 +15,6 @@
     width: 100vw;
     height: 350px;
     align-items: center;
-    /* justify-content: space-between; */
     margin-bottom: 50px;
 }
 .SmallBG{
@@ -105,12 +104,14 @@
     width: 510px;
 }
 .FaqA{
+    font-size: 26px;
     padding: 8px;
     display: block;
     transition: all 0.5s ease;
 }
 .FaqA2{
     transition: all 0.5s ease;
+    font-size: 26px;
 
     padding: 8px;
     display: none;
@@ -146,18 +147,19 @@
     border-radius: 10px;
     width: 140px;
     box-shadow: 0px -2px 4px rgba(95, 193, 124,0.7);
-    background: linear-gradient(180deg, #22BC50 0%, rgba(0, 201, 60, 0.3) 100%);
+    /* background: linear-gradient(180deg, #22BC50 0%, rgba(0, 201, 60, 0.3) 100%); */
     clip-path: polygon(0% 15%, 6% 15%, 6% 0, 94% 1%, 94% 13%, 100% 15%, 100% 85%, 94% 84%, 94% 100%, 5% 100%, 6% 85%, 0% 85%);
-    font-family: 'peepo';
+    font-family: 'Thintel';
     font-weight: 400;
-    font-size: 16px;
-    padding: 1px 30px;
+    padding: 1px 25px;
+    background-color: gray;
 }
 .GreenPdf img{
     width: 45px;
 }
 .GreenPdf p{
-    font-size: 18px;
+    font-size: 26px;
+    margin-right: 10px;
 }   
 
 /* for mobile */
@@ -167,9 +169,11 @@
         flex-direction: column;
         height: auto;
         position: relative;        
+        margin-top: 1px;
     }
     .SmF{
-        height: auto;
+        position: relative;
+        height: calc(30vh - 80px);
     }
     .BGH{
         display: none;
@@ -191,4 +195,5 @@
         width: 90%;
         margin-top: 0px;
     }
+ 
 }

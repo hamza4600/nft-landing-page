@@ -1,13 +1,17 @@
 /* Blue */
 
-@import url(//db.onlinewebfonts.com/c/b319832aeb7144538fd98da7e7246c04?family=Peepo);
-
 @font-face {
     font-family: "upheavtt";
     src: local("upheavtt"),
     url("../../fonts/upheaval/upheavtt.ttf") format("truetype");
     font-weight: lighter;
 }
+ @font-face {
+    font-family: "Thintel";
+    src: local("Thintel"),
+    url("../../fonts/Thintel.ttf") format("truetype");
+    font-weight: normal;
+} 
 
 .Blue{
     width: 750px;
@@ -27,14 +31,15 @@
 }
 /* Peppo */
 .Peep{
-    font-family: "Peepo";
-    font-size: 18px;
+    
+    font-family: "Thintel";
+    font-size: 28px;
     margin: 0;  
     line-height: 30px;
 }
 .Ques{
     font-family: "upheavtt";
-    font-size: 23px;
+    font-size: 24px;
     text-align: left;
     max-width: 80%;
     line-height: 22px;
@@ -45,9 +50,9 @@
     box-shadow: 0px -2px 4px rgba(95, 193, 124,0.7);
     background: linear-gradient(180deg, #22BC50 0%, rgba(0, 201, 60, 0.3) 100%);
     clip-path: polygon(0% 15%, 6% 15%, 6% 0, 94% 1%, 94% 13%, 100% 15%, 100% 85%, 94% 84%, 94% 100%, 5% 100%, 6% 85%, 0% 85%);
-    font-family: 'peepo';
+    font-family: "Thintel";
     font-weight: 400;
-    font-size: 16px;
+    font-size: 26px;
     padding: 15px 30px;
     cursor: pointer;
     margin:10px;
@@ -58,7 +63,11 @@
     color: white;
     border-radius: 10px;
     width: max-content;
-
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 47px;
     
 }
 .BlackBtn{
@@ -66,11 +75,10 @@
     width: 150px;
     background-color: white;
     margin:10px;
-    font-family: 'peepo';
+    font-family: "Thintel";
     font-weight: 400;
-    font-size: 16px;
+    font-size: 26px;
     cursor: pointer;
-    /* padding: 20px; */
     line-height: 23px;
     clip-path: polygon(0% 15%, 6% 15%, 6% 0, 94% 1%, 94% 13%, 100% 15%, 100% 85%, 94% 84%, 94% 100%, 5% 100%, 6% 85%, 0% 85%);
     color: white;
@@ -79,8 +87,9 @@
     align-items: center;
 }
 .BlackBtn:hover{
-    background-color: #22BC50;
-    color: white;
+    background-color: #5022BC;
+    color: #5022BC;
+    border: 2px solid #5022BC;
 }
 .BlackBtn::before {
         content: "Watch Tutorials";
@@ -98,13 +107,13 @@
 
 @media only screen and (max-width: 600px) {
     .Peep{
-        font-size: 15px;
+        font-size: 25px;
         line-height: 26px;
     }
     .Htex{
         font-size: 24px;
     }
     .Ques{
-        font-size: 18px;
+        font-size: 26px;
     }
 }

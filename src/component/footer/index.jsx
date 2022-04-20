@@ -4,14 +4,12 @@ import { BsTwitter, BsFacebook } from "react-icons/bs";
 
 const MintFooter = () => {
   return (
-    <>
       <div className="icons-container">
         <h3 className="icons-container-firstText">
           2022 NODE TREE NFT-POWERED BY BLOCTAK
         </h3>
           <Icons className="footerIcons" />
       </div>
-    </>
   );
 };
 

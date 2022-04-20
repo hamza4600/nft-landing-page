@@ -7,6 +7,7 @@
     overflow: hidden;
     position: relative;
     background-color: rgb(0, 0, 0);
+    margin-top: 90px;
 }
  
 .Tonesvg{
@@ -129,7 +130,7 @@
 /* fro mobile */
 @media only screen and (max-width: 600px) , (max-device-width: 1024px) {
     .Tone{
-        margin-top: 50px;
+        margin-top: 30px;
         height: 1530px;
         display: flex;
         justify-content: flex-start;
@@ -138,7 +139,7 @@
         display: none;
     }
     .TopMargin{
-        top: 5%;
+        top: 8%;
         display: flex;
         justify-content: flex-start;
         flex-direction: column;
@@ -168,8 +169,8 @@
     .PoloTwo{
         left: -6%;
         right: 1%;
+        bottom: 15px;
         background: transparent;
-        
     }
     .Para{
         position: relative;
