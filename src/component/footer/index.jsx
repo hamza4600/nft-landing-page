@@ -20,12 +20,12 @@ export  const Icons = () => {
     return(
          <div className="iconsContainer">
         <h4 className="iconsContainerText">Follow Us</h4>
-        <span className="twitter-icon iconsBox">
-          <BsTwitter />
-        </span>
-        <span className="iconsBox">
+        <a href="https://twitter.com/NodeTrees"  target="_blank"><span className="twitter-icon iconsBox">
+          <BsTwitter color="white" />
+        </span></a>
+        {/* <span className="iconsBox">
           <BsFacebook />
-        </span>
+        </span> */}
       </div>
     )
 }

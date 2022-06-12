@@ -62,7 +62,7 @@ export function BgGradiant(){
 // Common Components
 export function Commen() {
   return(<div className={styles.Common}>
-   <div className={styles.TwoButon}><GreenBtn text={`Learn More`}/>
+   <div className={styles.TwoButon}><GreenBtn text={`Buy Your NFT`}/>
     <BlackBtn text={`Donate`}/></div>
     <Icons/>
   </div>)

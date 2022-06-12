@@ -1,20 +1,14 @@
  
 
-Node tree
+## Node tree landing page 
+you can add your logic and customize  it accordi to your need 
 
 common components in global folder
 Make a layout of pages 
-Making irregular shapes in React js
+
+![MAIN!](src\photos\main.png)
+![LAST!](src\photos\two.png)
 
 
+if you want to make changes to it you can do .
 
-PUSH TO GITHUB
-git add .
-git commit -m "commit"
-git push origin  master
-
-
-<!--  -->
-Top 
-Footer
-30px section
